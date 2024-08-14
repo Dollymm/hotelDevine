@@ -1,5 +1,5 @@
 .backgroundimage {
-  background-image: url('src/assets/divine.jpeg');
+  background-image: url('../assets/divine.jpeg');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;

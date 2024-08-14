@@ -4,7 +4,7 @@ import backgroundimage from '../assets/divine.jpeg'
 
 function Home() {
   return (
-    <div className="relative flex items-center justify-center min-h-screen bg-cover bg-center backgroundimage">
+    <div className="relative flex items-center justify-center min-h-screen bg-cover bg-center backgroundimage"   style={{ backgroundImage: `url(${backgroundimage})` }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
