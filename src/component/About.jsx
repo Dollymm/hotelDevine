@@ -1,5 +1,5 @@
 import React from 'react';
-import hotelimage from '../assets/IMG_3508.JPG'
+import hotelimage from '../assets/IMG_3508.jpg'
 import logo from '../assets/hotelogo.webp'
 
 function About() {
