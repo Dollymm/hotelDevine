@@ -1,6 +1,6 @@
 import React from 'react';
-import hotelImage from '../assets/IMG_3508.JPG';
-import hotelLogo from '../assets/hotelogo.webp'; // Import the logo image
+import hotelimage from '../assets/IMG_3508.JPG'
+import logo from '../assets/hotelogo.webp'
 
 function About() {
   return (
@@ -18,7 +18,7 @@ function About() {
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="relative w-full max-w-lg">
               <img
-                src={hotelImage}
+                src={hotelimage}
                 alt="Hotel View"
                 className="rounded-lg shadow-lg object-cover w-full h-auto max-h-[500px] transition-transform duration-500 hover:rotate-1"
               />
@@ -26,12 +26,9 @@ function About() {
           </div>
 
           {/* About Us Text Section */}
-          <div className="w-full lg:w-1/2 bg-gradient-to-r from-gray-50 via-gray-100 to-white p-8 shadow-lg rounded-lg transition-transform duration-500 hover:rotate-1 relative">
-            <img 
-              src={hotelLogo} 
-              alt="Hotel Logo"
-              className="absolute top-4 right-4 w-20 h-auto" 
-            />
+          <div className="w-full lg:w-1/2 bg-gradient-to-r from-gray-50 via-gray-100 to-white p-8 shadow-lg rounded-lg transition-transform duration-500 hover:rotate-1">
+          <img src={logo}
+           className="absolute top-4 right-4 w-20 h-auto" />
             <p className="text-2xl font-semibold text-indigo-600 mb-4">
               Welcome to Unwind Hotel
             </p>
